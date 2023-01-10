@@ -1,0 +1,91 @@
+body{
+    background-color: black;
+    color: black;
+}
+/*styling the list of items in the nav bar */
+nav ul {
+    display:flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+}
+/* Styling the space of each item*/
+nav li{
+    list-style: none;
+    background-color: black;
+    color: whitesmoke;
+    margin: 0;
+    flex: 1;
+    text-align: center;
+    display: flex;
+}
+/* Styling the link, both visited and visited*/
+nav a, nav a:visited {
+    text-decoration: none;
+    width:100%;
+    padding:8px 0px;
+    color: whitesmoke;
+}
+/*hovering over a link*/
+nav a:hover {
+    color: black;
+    background-color: rgb(173,230,180);
+}
+/* Hovering over a link AND the active (current) */
+nav a:hover, nav a.active {
+    color:black;
+    background-color: rgb(173,230,180);
+}
+.card {
+    width: 400px;
+    min-height: 160px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    margin: 16px;
+    position:relative;
+}
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.picture-section {
+    height: 150px;
+    position: relative;
+}
+.update {
+    background-color: rgba(45, 55, 72, 0.67);
+    color: white;
+    position: absolute;
+    padding: 4px 8px;
+}
+.company {
+    color: white;
+    position: absolute;
+    top:0;
+    right:0;
+    padding: 20px;
+}
+.picture {
+    width: 150px;
+    height: 150px;
+}
+.
+.info {
+    padding: 8px;
+    color: #2D3748;
+}
+.price {
+    font-size: 15px;
+
+}
+.type {
+    font-size: 8px;
+}
+a {
+    text-decoration:none;
+}
+.card-area{
+    display:flex;
+    flex-wrap:wrap;
+}
+.background{
+    Color: Blue;
+}
